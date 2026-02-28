@@ -1,0 +1,121 @@
+/* General Settings */
+:root {
+    --primary-color: #2563eb; /* Professional Blue */
+    --dark-bg: #1e293b;
+    --light-bg: #f8fafc;
+    --text-main: #334155;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-main);
+    margin: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Nav */
+header {
+    background: var(--dark-bg);
+    color: var(--white);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #94a3b8;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: 1px solid #475569;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Sections */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    border-bottom: 2px solid var(--primary-color);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+/* Project Cards */
+.project-card {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.tech-stack {
+    font-family: monospace;
+    color: var(--primary-color);
+    background: #eff6ff;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Buttons */
+.btn-outline {
+    display: inline-block;
+    margin-top: 15px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Resume Section */
+.resume-box {
+    text-align: center;
+    background: #e2e8f0;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 0.9rem;
+    color: #64748b;
+}
